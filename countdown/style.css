@@ -11,7 +11,7 @@ body {
 }
 
 div#container {
-    background-image: url('foto-anon.jpg');
+    background-image: url('./imagem/ano-novo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,9 +22,12 @@ h1 {
     font-family:'Hind', sans-serif;
     display: block;
     text-align: center;
-    margin: 0px;
+    margin: auto;
     padding: 15px;
-    color: rgb(18, 18, 218);
+    color: rgb(255, 255, 255);
+    background-color: #12121288;
+    max-width: 500px;
+    border-radius: 10px;
 }
 
 ul {
@@ -37,10 +40,10 @@ li {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     list-style: none;
-    background-color: #121212;
-    margin: 3px;
+    background-color: #1212127a;
+    margin: 8px 3px;
     padding: 5px;
-    color: rgb(18, 18, 218);
+    color: rgb(255, 255, 255);
     max-width: 200px;
     border-radius: 10px;
 }
@@ -53,10 +56,10 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
     list-style: none;
-    background-color: #121212;
+    background-color: #1212127a;
     margin: 3px;
     padding: 5px;
-    color: rgb(18, 18, 218);
+    color: rgb(255, 255, 255);
 }
 
 #proxAno {
